@@ -48,7 +48,7 @@ function loadCoords(){
 };
 
 function init(){
-    loadCoords();
+    loadCoords(); 
 };
 
 init();

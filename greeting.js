@@ -37,7 +37,7 @@ function loadName(){
 };
 
 function init(){
-    loadName();
+    loadName(); 
 };
 
 init();
