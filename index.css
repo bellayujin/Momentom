@@ -12,6 +12,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: rgba(0,0,0,0.5);
 }
 
 .btn{
@@ -66,21 +67,29 @@ h1{
     color:#fff;
 }
 
-.js_todoList{
+.list div{
     margin-top:2em;
+    width:50%;
+    float:left;
 }
 
-.js_todoList li{
+.js_pending h2, .js_done h2{
+    width:50%;
+    float:left;
+}
+
+.js_pending li, .js_done li{
     list-style: none;
     height:30px;
     line-height: 30px;;
 }
 
-.js_todoList li button{
+.list li button{
     background-color: transparent;
     box-shadow: none;
     border:none;
     margin-left:15px;
+    color: #fff;
 }
 
 @keyframes fadeIn{
